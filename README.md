@@ -15,8 +15,12 @@ Tool: Azure Data Studio
 
 DBMS: Mssql 
 
-## Launch
-sudo docker pull mcr.microsoft.com/mssql/server:2019-latest
+## Setup
+Install docker 
+Pull image
+Launch MSSQL server 
+
+On terminal: sudo docker pull mcr.microsoft.com/mssql/server:2019-latest
 
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=xxxxxxx" -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
 
