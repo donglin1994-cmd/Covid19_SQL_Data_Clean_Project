@@ -1,4 +1,4 @@
-# Covid19_Sql_Data_Clean_Project
+# COVID-19_Sql_Data_Clean_Project
 ##Table of Content
 
 #Introduction
@@ -8,17 +8,17 @@
 #Setup
 
 ## Introduction
-Use SQL commands to get Covid-19 summary statistics
+Use SQL commands to get COVID-19 summary statistics.
 
 ## Technologies
 Tool: Azure Data Studio
 
-DBMS: Mssql 
+DBMS: MS SQL 
 
 ## Setup
 Install docker 
 Pull image
-Launch MSSQL server 
+Launch MS SQL server 
 
 On terminal: sudo docker pull mcr.microsoft.com/mssql/server:2019-latest
 
